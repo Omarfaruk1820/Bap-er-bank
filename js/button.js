@@ -6,7 +6,7 @@ document.getElementById('btn-submit').addEventListener('click',function(){
     const passwordField=document.getElementById('user-password');
     const password=passwordField.value;
     console.log(password);
-    if(email=='nishat@gamil.com'&& password=='omarfaruk'){
+    if(email=='nishat@gmail.com'&& password=='omarfaruk'){
         window.location.href='http://127.0.0.1:5500/js/bank.html';
     }
     else{
